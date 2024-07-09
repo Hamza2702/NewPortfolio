@@ -76,6 +76,23 @@ u{
   transform: scale(1.2);
 }
 
+.section{
+  padding-top: 90px;
+}
+
+.about-grades{
+  display: block;
+}
+
+.about-grades h5, .about-grades p {
+  display: inline; 
+  margin: 0; 
+}
+
+.section p{
+  font-size: .8em;
+}
+
 .container {
   display: flex;
   flex-direction: column;
