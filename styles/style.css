@@ -89,9 +89,38 @@ u{
   margin: 0; 
 }
 
+.about-experience{
+  display: block;
+}
+
+.about-experience h4, .about-experience img {
+  display: inline;
+  vertical-align: middle;
+  margin: 0;
+}
+
 .section p{
   font-size: .8em;
 }
+
+
+.insideIndividual {
+  height: 0 auto;
+  max-width: 100%;
+  background-color: #363636;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+/* Individual experience */
+.javaExperience {width: 70%; border-radius: 25px; background-color: #6abbb7;}
+.CSharpExperience {width: 45%; border-radius: 25px; background-color: #b46abb;}
+.LuaExperience {width: 75%; border-radius: 25px; background-color: #bb6a6a;}
+.PythonExperience {width: 15%; border-radius: 25px; background-color: #6abb6a;}
+.JavaScriptExperience {width: 25%; border-radius: 25px; background-color: #6abbb7;}
+.PHPExperience {width: 35%; border-radius: 25px; background-color: #b3bb6a;}
+
 
 .container {
   display: flex;
