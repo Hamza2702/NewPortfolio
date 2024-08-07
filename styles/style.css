@@ -115,8 +115,8 @@ u{
 
 /* Individual experience */
 .javaExperience {width: 70%; border-radius: 25px; background-color: #6abbb7;}
-.CSharpExperience {width: 45%; border-radius: 25px; background-color: #b46abb;}
-.LuaExperience {width: 75%; border-radius: 25px; background-color: #bb6a6a;}
+.CSharpExperience {width: 55%; border-radius: 25px; background-color: #b46abb;}
+.LuaExperience {width: 80%; border-radius: 25px; background-color: #bb6a6a;}
 .PythonExperience {width: 15%; border-radius: 25px; background-color: #6abb6a;}
 .JavaScriptExperience {width: 25%; border-radius: 25px; background-color: #6abbb7;}
 .PHPExperience {width: 35%; border-radius: 25px; background-color: #b3bb6a;}
@@ -263,6 +263,12 @@ u{
 .about-section{
   text-align: center;
   font-size: 1.25em;
+  width: auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
