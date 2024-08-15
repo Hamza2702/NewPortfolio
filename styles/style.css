@@ -315,6 +315,10 @@ u{
     float: none;
     clear: both; 
   }
+
+  .about-section{
+    grid-template-columns: repeat(1, 1fr); 
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1439px) {
