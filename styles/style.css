@@ -22,6 +22,12 @@ video{
   text-decoration: none;
 }
 
+.videoSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 u{
   text-decoration: none;
   display:inline-block;
